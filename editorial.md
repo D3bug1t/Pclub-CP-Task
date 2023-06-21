@@ -4,6 +4,8 @@
 One possible approach to the problem given is to try to split the problem set in all possible ways and obtain their sum and observe whether the maximum time taken by Anaswar or Sanskaar is less than or equal to time left.
 We know that for a given set of length N. Total subsets formed are **2<sup>N</sup>** . Hence iterating over all the subsets will give us a solution of order **O(2<sup>N</sup>)**.
 
+Which is not a desirable method to compute since it is an exponential order method and will eventually exceed the time limit.
+
 ## 2.	Optimised Approach
 
 Let us take a closer look at the problem. Here, it seems that even though they work as a team. But on splitting the questions they are different individuals working on **DIFFERENT** problem-sets with **SAME** time remaining in the contest to be over. Hence the problem can be also be posed as that we have to split the subsets in such a way that the sum of each subset is less than or equal to ***X*** . 
