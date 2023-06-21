@@ -1,6 +1,6 @@
 # A. Race Against Time!
 
-Sanskaar and Anaswar are participating in the on-site round of **ICPC (International Collegiate Programming Contest).** The problem-set consists of ***N*** questions. An array A is given which denotes the time taken by problem i to be solved by both of them (Assume they both are equally capable of solving all the problems in the same time).
+Sanskaar and Anaswar are participating in the on-site round of **ICPC (International Collegiate Programming Contest).** The problem-set consists of ***N*** questions. An array A is given which denotes the time taken by **i<sub>th</sub>** problem to be solved by both of them (Assume they both are equally capable of solving all the problems in the same time).
 
 But here's the catch! Since Sanskaar and Anaswar were late to the on-site round. They have only ***X*** minutes left to solve all the questions. In order to do so, they devise a plan to split problems between them so that they can complete all the problems.
 
