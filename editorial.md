@@ -8,5 +8,4 @@ Let us take a closer look at the problem. Here, it seems that even though they w
 
 Of course ,these two sets will be distributed between Sanskaar and Anaswar and since they both are equally capable of solving all the problems it is not necessary in which order we distribute the subsets between them. And since we are only interested whether the problems can be distributed in such a way that they are completed in the time left let us consider two variables sanskaar_time and anaswar_time which keep the track record of the total time taken by each to solve their subsets.
 
-The logic to this problem is that we sort the array and check whether Sanskaar or Anaswar can complete it in the time left and do the same again and again over the whole loop and if both the candidates can’t solve the problems in the leftover time at any point in the iteration we break out of the loop and output 
-No.
+The logic to this problem is that we sort the array and check whether Sanskaar or Anaswar can complete it in the time left and do the same again and again over the whole loop and if both the candidates can’t solve the problems in the leftover time at any point in the iteration we break out of the loop and output **"No"** otherwise **"Yes"**.
